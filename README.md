@@ -1,3 +1,13 @@
+# 🌡️ Climate Trends
+
+**NOAA historical data** → **global temperature analysis**.
+
+## 📊 Features
+| Data | Source | Visualization |
+|------|--------|---------------|
+| Temperature anomalies | NOAA | Line charts (1880-NOW) |
+| Global trends | Historical | PNG exports |
+
 # Global Temperature Trends Analysis
 
 **Climate mini-project**: Analysis of global surface temperature change using NASA GISTEMP data. [web:3][web:33]
@@ -58,16 +68,10 @@ Using NASA GISTEMP v4 data (global land+ocean): [web:3][page:1]
 
 **requirements.txt** lists all packages used.
 
-## 🔄 How to run
-
+## 🚀 Quick Start
 ```bash
 git clone https://github.com/Tinashe-stack/climate-trends.git
 cd climate-trends
-
-# Create virtual environment (recommended)
-python -m venv .venv
-source .venv/bin/activate  # Mac/Linux
-# .venv\Scripts\activate    # Windows
 
 pip install -r requirements.txt
 
